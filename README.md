@@ -59,7 +59,7 @@ flowchart LR
         K["validate_bot<br/>실데이터 홀드아웃 KS 검정"]
     end
 
-    L["📊 HTML 리포트 3종<br/>overview · deep · explainer"]
+    L["📊 HTML 리포트<br/>overview · deep · explainer · 정책비교"]
 
     A --> C
     B --> C
@@ -138,7 +138,7 @@ python docs/make_charts.py           # (README 차트 재생성)
 | `bot/composers.py` | 세션 구성 정책 5종 (랜덤 균형, 약점 집중, 아키타입 인지 등) |
 | `bot/simulator.py` | 가상 코호트 시뮬레이션 (composer × adjuster 격자) |
 | `bot/calibration.py` / `validate_bot.py` | 확률 보정 / KS 홀드아웃 검증 |
-| `bot/make_*.py` | HTML 리포트 3종 (경영진용 overview, 분석 deep-dive, 비개발자용 explainer) |
+| `bot/make_*.py` | HTML 리포트 4종 (경영진용 overview, 분석 deep-dive, 비개발자용 explainer, 정책비교 make_report) |
 | `data/make_synthetic.py` | 합성 샘플 데이터 생성기 (이 저장소의 유일한 데이터 소스) |
 
 <details>
